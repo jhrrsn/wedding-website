@@ -18,7 +18,6 @@
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../assets/css/jumbotron.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="../assets/css/main.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -36,29 +35,39 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header navbar-title">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Rachel &amp; Jack</a>
+          <a href="index.html">
+            <p>Rachel &amp; Jack</p>
+          </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="when-where.html">When &amp; Where</a>
+              <li id="when-where-nav">
+                <a href="when-where.html">
+                  <p>When &amp; Where</p>
+                </a>
               </li>
-              <!-- <li>
-                <a href="gifting.html" >Gifting</a>
-              </li> -->
-    					<li>
-    						<a href="faqs.html" >FAQs</a>
+    					<li id="faqs-nav">
+    						<a href="faqs.html">
+                  <p>FAQs</p>
+                </a>
     					</li>
-              <!-- <li>
-                <a href="#" id="rsvp">RSVP</a>
-              </li> -->
+              <li id="gifting-nav">
+                <a>
+                  <p>Gifting</p>
+                </a>
+              </li>
+              <li id="rsvp-nav">
+                <a>
+                  <p>RSVP</p>
+                </a>
+              </li>
            </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -66,7 +75,7 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
+      <div class="container" id="jack-rachel-header">
         <img src="../assets/img/wedding-photo.png" class="img-responsive">
         <!-- <h1>Hello, world!</h1> -->
         <!-- <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p> -->
@@ -76,7 +85,7 @@
 
     <div class="container">
       <!-- Example row of columns -->
-      <h2>Heading</h2>
+      <h2 class="navy-bars">We're getting married!</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 
       <!-- <div class="row">
@@ -96,9 +105,6 @@
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div> -->
-
-      <hr>
-
       <footer>
         <!-- <p>&copy; 2016 Company, Inc.</p> -->
       </footer>

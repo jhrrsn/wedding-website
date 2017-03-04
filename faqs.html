@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../assets/css/jumbotron.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="../assets/css/main.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -35,29 +36,39 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header navbar-title">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Rachel &amp; Jack</a>
+          <a href="index.html">
+            <p>Rachel &amp; Jack</p>
+          </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="when-where.html">When &amp; Where</a>
+              <li id="when-where-nav">
+                <a href="when-where.html">
+                  <p>When &amp; Where</p>
+                </a>
               </li>
-              <!-- <li>
-                <a href="gifting.html" >Gifting</a>
-              </li> -->
-    					<li>
-    						<a href="faqs.html" >FAQs</a>
+    					<li id="faqs-nav">
+    						<a href="faqs.html">
+                  <p>FAQs</p>
+                </a>
     					</li>
-              <!-- <li>
-                <a>RSVP</a>
-              </li> -->
+              <li id="gifting-nav">
+                <a>
+                  <p>Gifting</p>
+                </a>
+              </li>
+              <li id="rsvp-nav">
+                <a>
+                  <p>RSVP</p>
+                </a>
+              </li>
            </ul>
         </div><!--/.navbar-collapse -->
       </div>
@@ -75,7 +86,7 @@
     <div class="container">
       <!-- Example row of columns -->
       <div>
-        <h2>Where can I find out more information about ___?</h2>
+        <h2 class="super-pink">Where can I find out more information about ___?</h2>
         <p>This website is pretty 'bare bones' at the moment, but it'll have much more information once the invites are sent out.</p>
         <p>However, if there's something you just <em>have</em> to know in advance, please don't hesitate to <a href="mailto:jack.rachel2017@gmail.com?Subject=A%20Question!" target="_top">get in touch</a>!</p>
       </div>

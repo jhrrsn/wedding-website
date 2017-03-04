@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../assets/css/jumbotron.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="../assets/css/main.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -35,38 +36,49 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header navbar-title">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Rachel &amp; Jack</a>
+          <a href="index.html">
+            <p>Rachel &amp; Jack</p>
+          </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="when-where.html">When &amp; Where</a>
+              <li id="when-where-nav">
+                <a href="when-where.html">
+                  <p>When &amp; Where</p>
+                </a>
               </li>
-              <!-- <li>
-                <a href="gifting.html" >Gifting</a>
-              </li> -->
-    					<li>
-    						<a href="faqs.html" >FAQs</a>
+    					<li id="faqs-nav">
+    						<a href="faqs.html">
+                  <p>FAQs</p>
+                </a>
     					</li>
-              <!-- <li>
-                <a>RSVP</a>
-              </li> -->
+              <li id="gifting-nav">
+                <a>
+                  <p>Gifting</p>
+                </a>
+              </li>
+              <li id="rsvp-nav">
+                <a>
+                  <p>RSVP</p>
+                </a>
+              </li>
            </ul>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
     <div class="jumbotron">
-      <div class="container">
+      <div class="container" id="wedding-date">
         <!-- <img src="../assets/img/wedding-photo.png"> -->
-        <h1 id="wedding-date">27th September 2017</h1>
+        <p>Our wedding will take place on the</p>
+        <h1>27th September 2017</h1>
         <!-- <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p> -->
         <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
       </div>
@@ -75,36 +87,31 @@
     <div class="container">
       <!-- Example row of columns -->
       <div>
-        <h2>Venues</h2>
+        <h2 class="navy-bars">Venues</h2>
         <p>The ceremony will take place near <strong>Stockbridge, Hampshire</strong>, with the evening reception in <strong>Southampton</strong>.</p>
+        <p class="tinywords">More details will be provided when invitations are sent out!</p>
      </div>
-     <hr>
+     <!-- <hr> -->
      <div>
-        <h2>Hotels</h2>
+        <h2 class="navy-bars">Hotels</h2>
         <p>Limited rooms are available at the <a href="http://www.grandharbourhotel.co.uk">Grand Harbour Hotel</a>, which is virtually next door to the reception venue.</p>
         <p>Please call the hotel to book on <strong>02380 633033</strong> &amp; quote <code>BASI270917</code> for our special rate.</p>
         <br>
-        <div id="hotel-list">
+        <div class="tinywords">
           <p>There are a number of other hotels to suit every budget within walking distance or a short taxi ride, including:</p>
-          <a href="https://ennios.co.uk/ennios-boutique-hotel/about">Ennios Boutique Hotel (£££)</a>
-          <br>
-          <a href="http://www.idealcollection.co.uk/whitestartavern/southampton-hotel/">The White Star Tavern (££)</a>
-          <br>
           <a href="http://www.premierinn.com/gb/en/hotels/england/hampshire/southampton/southampton-west-quay.html">Premier Inn (West Quay) (££)</a>
           <br>
           <a href="http://www.hisouthamptonhotel.co.uk">Holiday Inn (££)</a>
           <br>
-          <a href="http://www.novotel.com/gb/hotel-1073-novotel-southampton/index.shtml">Novotel (£)</a>
-          <br>
           <a href="https://www.travelodge.co.uk/hotels/589/Southampton-Central-hotel">Travelodge (£)</a>
         </div>
       <div>
-      <hr>
+      <!-- <hr> -->
       <div>
-         <h2>Taxis</h2>
+         <h2 class="navy-bars">Taxis</h2>
          <p>The local taxi company is <a href="http://westquaycars.com">West Quay Cars</a>, <strong>02380 999999</strong>.</p>
        </div>
-       <hr>
+       <!-- <hr> -->
       <footer>
         <!-- <p>&copy; 2016 Company, Inc.</p> -->
       </footer>
